@@ -33,7 +33,7 @@ const App = ({ Component, pageProps }: AppProps) => (
             <meta
                 key="og:image"
                 name="og:image"
-                content="/A32NX_Front.jpeg"
+                content="/FTW-Logo_BLK.png"
             />
         </Head>
         <NavBar />

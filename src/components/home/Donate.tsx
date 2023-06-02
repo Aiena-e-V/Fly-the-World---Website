@@ -20,7 +20,7 @@ export const Donate = () => (
         <div className="flex flex-wrap items-center justify-center md:justify-start mt-8">
           <div className="md:flex-grow">
             <div className="flex items-center justify-center"> {/* Updated code */}
-              <script src="https://donorbox.org/widget.js" paypalExpress="true"></script>
+              <script src="https://donorbox.org/widget.js" paypalexpress="true"></script>
               <iframe
                 src="https://donorbox.org/embed/aiena-fly-the-world"
                 name="donorbox"
