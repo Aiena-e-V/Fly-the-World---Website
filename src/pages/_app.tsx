@@ -13,22 +13,22 @@ const App = ({ Component, pageProps }: AppProps) => (
             <meta name="theme-color" content="#00c2cc" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-            <title>FlyByWire Simulations</title>
+            <title>FTW-SIM - Fly the World</title>
 
             <meta
                 key="description"
                 name="description"
-                content="Official FlyByWire Simulations website, an open-source community providing high quality addons for Microsoft Flight Simulator."
+                content="Fly The World is a free flight simulator addon that lets you create airlines and own virtual aircraft, opening up endless possibilities in the virtual skies."
             />
             <meta
                 key="og:title"
                 name="og:title"
-                content="FlyByWire Simulations"
+                content="Fly the World"
             />
             <meta
                 key="og:description"
                 name="og:description"
-                content="Official FlyByWire Simulations website, an open-source community providing high quality addons for Microsoft Flight Simulator."
+                content="Fly The World is a free flight simulator addon that lets you create airlines and own virtual aircraft, opening up endless possibilities in the virtual skies."
             />
             <meta
                 key="og:image"

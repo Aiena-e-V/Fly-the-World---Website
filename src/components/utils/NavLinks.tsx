@@ -36,9 +36,8 @@ export const NavLinks = (props: { className?: string }) => {
         <span className={`flex flex-col gap-x-4 gap-y-2 md:items-center ${props.className}`}>
             {router.pathname !== '/' && <NavLink name="Home" path="/" />}
             <NavLink name="NOTAMS" path="/notams" />
-            <NavLink name="Projects" path="/a32nx" />
+            <NavLink name="Features" path="/ftwsim" />
             <NavLink name="Documentation" external path="https://docs.flybywiresim.com/" />
-            <NavLink name="Map" path="/map" />
             <Dropdown titleName="Community">
                 <DropdownItem>
                     <NavLink name="Discord" external path="https://discord.gg/flybywire" />
