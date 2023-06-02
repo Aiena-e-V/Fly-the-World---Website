@@ -2,7 +2,7 @@
   "name": "web",
   "version": "1.6.0",
   "private": true,
-  "homepage": "https://www.flybywiresim.com/",
+  "homepage": "https://www.ftw-sim.de/",
   "dependencies": {
     "@flybywiresim/react-components": "^0.3.2",
     "@fortawesome/fontawesome-svg-core": "^1.2.36",

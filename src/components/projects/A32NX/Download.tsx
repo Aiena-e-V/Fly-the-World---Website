@@ -2,9 +2,9 @@ import { Button } from '../../utils/Button';
 
 export const Download = ({ expOnHold }: { expOnHold?: boolean }) => {
     const urls = {
-        stable: 'https://github.com/flybywiresim/a32nx/releases/download/assets/stable/A32NX-stable.zip',
-        dev: 'https://github.com/flybywiresim/a32nx/releases/download/assets/master/A32NX-master.zip',
-        exp: 'https://github.com/flybywiresim/a32nx/releases/download/assets/experimental/A32NX-experimental.zip',
+        stable: 'https://forum.aiena.de/wsc/index.php?disclaimer/',
+        dev: 'https://forum.aiena.de/wsc/index.php?form-user-response/1-fly-the-world-simulations-player-account/',
+        exp: 'empty',
     };
 
     const getDownloadLink = (link: string) => `${link}`;
@@ -17,73 +17,56 @@ export const Download = ({ expOnHold }: { expOnHold?: boolean }) => {
                         <div className="w-1/2 text-left divide-y divide-gray-500 2xl:w-1/4">
                             <h2 className="text-base font-medium tracking-widest text-blue-200 uppercase">READY TO FLY?</h2>
                             <p className="pt-3 mt-3 text-5xl font-medium text-blue-light">
-                                Download
+                                Register
                             </p>
                         </div>
 
                         <p className="mt-5 max-w-prose text-xl">
-                            We have included many options to download our addons, you can use our custom and simple installer to always keep your products up to date,
-                            or you can download using standalone installations.
+                            Fly the World is currently in open beta, and accounts have to be setup manually to ensure stabillity at all times and not overload our systems.
                         </p>
 
                         <ul className="pt-7 pl-5 -m-2 text-lg list-disc text-gray-200">
-                            <li className="pl-2 ml-2">Integrates seamlessly into Microsoft Flight Simulator - no external programs required.</li>
-                            <li className="pl-2 ml-2">Safe, trustworthy, and constantly updated to assure nothing is broken.</li>
-                            <li className="pl-2 ml-2">One click install, neatly organized into one compact folder.</li>
+                            <li className="pl-2 ml-2">Register on our forums</li>
+                            <li className="pl-2 ml-2">Request your sim account</li>
+                            <li className="pl-2 ml-2">Wait for your account to be setup</li>
                         </ul>
                     </div>
                     <div className="flex flex-col w-full divide-y divide-gray-500 lg:w-2/5">
                         {/* Installer */}
                         <div className="pt-16 pb-8 lg:pt-0">
-                            <span className="text-4xl text-blue-100">Installer</span>
+                            <span className="text-4xl text-blue-100">YAACARS tracking</span>
 
                             <p className="mt-4 mb-6 max-w-prose">
-                                Our easy-to-use installer is the easiest way to get started with our addons. Simply launch and install any addon you want, with only two clicks.
+                               Connect your simulators to our platform seamlessly using our ACARS client!
                             </p>
 
-                            <a href="https://api.flybywiresim.com/installer">
-                                <Button className="float-right w-40 font-bold bg-green-500 hover:bg-green-700">Download</Button>
+                            <a href="http://www.ftw-sim.de/yaacars/download/download.php?file=YAACARS%20V2.3%20%28Build%20FTW%23195%29.zip">
+                                <Button className="float-center w-50 font-bold bg-green-500 hover:bg-green-700">Yaacars - Windows</Button>
                             </a>
                         </div>
 
                         {/* Direct Download */}
                         <div className="pt-7">
-                            <span className="text-2xl text-blue-100">Direct Download</span>
+                            <span className="text-2xl text-blue-100">Sign-up process</span>
                             <p className="mt-4 mb-6 max-w-prose">
-                                If you prefer a direct download, the following links are available.
+                                Sign up today by following these steps!
                             </p>
 
                             <div className="divide-y divide-gray-700">
                                 <div className="flex flex-row justify-between items-center mb-5">
-                                    <span className="text-xl text-gray-300">Stable Release</span>
+                                    <span className="text-xl text-gray-300">Register your account</span>
                                     <a href={getDownloadLink(urls.stable)}>
-                                        <Button className="float-right w-40 font-bold bg-green-500 hover:bg-green-700">Download</Button>
+                                        <Button className="float-right w-40 font-bold bg-green-500 hover:bg-green-700">Register</Button>
                                     </a>
                                 </div>
                                 <div className="flex flex-row justify-between items-center pt-5 mb-5">
-                                    <span className="text-xl text-gray-300">Development Build</span>
+                                    <span className="text-xl text-gray-300">Request a sim account</span>
                                     <a href={getDownloadLink(urls.dev)}>
-                                        <Button className="float-right w-40 font-bold bg-blue-light-contrast hover:bg-blue-medium">Download</Button>
+                                        <Button className="float-right w-40 font-bold bg-blue-light-contrast hover:bg-blue-medium">Request</Button>
                                     </a>
                                 </div>
                                 <div>
-                                    <div className="flex flex-row justify-between items-center pt-5 mb-8">
-                                        <span className="text-xl text-gray-300">Experimental Build</span>
-                                        <a href={expOnHold ? undefined : getDownloadLink(urls.exp)}>
-                                            <Button
-                                                className={`float-right w-40 font-bold bg-blue-light-contrast ${expOnHold ? 'opacity-30 cursor-not-allowed' : 'hover:bg-blue-medium'}`}
-                                            >
-                                                Download
-                                            </Button>
-                                        </a>
-                                    </div>
-                                    {expOnHold && (
-                                        <span className="flex-wrap mb-8 text-gray-300">
-                                            Our experimental branch is temporarily
-                                            <a href="https://docs.flybywiresim.com/fbw-a32nx/support/exp/" className="text-blue-light">&#32;on hold&#32;</a>
-                                            and all of its features have been moved to the development build.
-                                        </span>
-                                    )}
+
                                 </div>
                             </div>
                         </div>

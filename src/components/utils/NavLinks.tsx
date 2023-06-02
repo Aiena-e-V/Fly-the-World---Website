@@ -35,25 +35,14 @@ export const NavLinks = (props: { className?: string }) => {
     return (
         <span className={`flex flex-col gap-x-4 gap-y-2 md:items-center ${props.className}`}>
             {router.pathname !== '/' && <NavLink name="Home" path="/" />}
-            <NavLink name="NOTAMS" path="/notams" />
-            <NavLink name="Projects" path="/a32nx" />
-            <NavLink name="Documentation" external path="https://docs.flybywiresim.com/" />
-            <NavLink name="Map" path="/map" />
+            <NavLink name="Features" path="/ftwsim" />
+            <NavLink name="Documentation" external path="https://manual.ftw-sim.de" />
             <Dropdown titleName="Community">
                 <DropdownItem>
-                    <NavLink name="Discord" external path="https://discord.gg/flybywire" />
+                    <NavLink name="Discord" external path="https://discord.gg/Y9qdHcWXvZ" />
                 </DropdownItem>
                 <DropdownItem>
-                    <NavLink name="Twitter" external path="https://twitter.com/FlyByWireSim" />
-                </DropdownItem>
-                <DropdownItem>
-                    <NavLink name="Facebook" external path="https://facebook.com/FlybywireSimulations/" />
-                </DropdownItem>
-                <DropdownItem>
-                    <NavLink name="YouTube" external path="https://www.youtube.com/FlyByWireSimulations" />
-                </DropdownItem>
-                <DropdownItem>
-                    <NavLink name="Donate" external path="https://opencollective.com/flybywire/" />
+                    <NavLink name="Donate" external path="https://donorbox.org/aiena-fly-the-world" />
                 </DropdownItem>
             </Dropdown>
         </span>

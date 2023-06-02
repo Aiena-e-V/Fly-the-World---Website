@@ -11,77 +11,69 @@ export const ExtendedFeatures = () => (
                         2xl:grid-cols-4
                         max-w-max mx-auto gap-x-16 gap-y-20"
         >
-            <Feature key="EFB">
+            <Feature key="Aircraft ownership">
                 <FeatureTitle>
-                    Electronic Flight Bag
+                    Aircraft ownership
                 </FeatureTitle>
                 <FeatureBody>
-                    The EFB is an integrated tablet with a handy toolkit, a settings page, performance tools, and more.
+                    Begin your journey with small propeller aircraft and gradually progress to owning a majestic 747 and beyond. With a wide selection of planes available for purchase, you'll have the opportunity to fly almost any aircraft your heart desires.
                 </FeatureBody>
             </Feature>
 
-            <Feature key="Custom Soundpack">
+            <Feature key="Freelancer">
                 <FeatureTitle>
-                    Custom Soundpack
+                    Freelancer
                 </FeatureTitle>
                 <FeatureBody>
-                    Enjoy sounds like never before, the A32NX includes a fully custom and highly accurate soundpack.
+                    Explore the world with routes tailored to your aircraft and location, flying solo with your own aircraft.
                 </FeatureBody>
             </Feature>
 
-            <Feature key="Simbrief Integration">
+            <Feature key="Repairs">
                 <FeatureTitle>
-                    Simbrief Integration
+                    Repair and Maintenance
                 </FeatureTitle>
                 <FeatureBody>
-                    Make flight plan entry a breeze with the SimBrief integration, all it takes is one click and you are ready to go!
+                    Repair and maintenance for your aircraft can be done at player-owned hangars or any airport of your choice, offering potential cost savings.
                 </FeatureBody>
             </Feature>
 
-            <Feature key="Product Installer">
+            <Feature key="Airlines">
                 <FeatureTitle>
-                    Product Installer
+                    Airlines
                 </FeatureTitle>
                 <FeatureBody>
-                    FlyByWire has a custom product installer, which makes the task of installing all FlyByWire products hassle free.
+                Choose from a wide selection of player-operated airlines that cater to your preferences, including location, language, and route types. With over 300 airlines to choose from, there's one that's perfect for you!
                 </FeatureBody>
             </Feature>
 
-            <Feature key="Experimental Variations">
+            <Feature key="Start your Own">
                 <FeatureTitle>
-                    Experimental Variations
+                    Start your own business
                 </FeatureTitle>
                 <FeatureBody>
-                    Want to experiment with our new features? You can! We have several ready to test branches with experimental features on our installer!
+                    Ready to offer unique jobs on our marketplace? Get an aircraft and start offering your services to everyone on FTW Sim!
                 </FeatureBody>
             </Feature>
 
-            <Feature key="Constant Additions">
+            <Feature key="Aircraft Leasing & Rental">
                 <FeatureTitle>
-                    Constant Additions
+                    Aircraft Leasing & Rental
                 </FeatureTitle>
                 <FeatureBody>
-                    The A32NX development branches are updated almost daily with brand new features you can test right away!
+                      Explore various options for leasing or renting an aircraft if you don't have sufficient funds to purchase one at the moment.
                 </FeatureBody>
             </Feature>
 
-            <Feature key="Documentation">
+            <Feature key="Helicopter rescue and missions">
                 <FeatureTitle>
-                    Documentation
+                    Helicopter rescue and missions
                 </FeatureTitle>
                 <FeatureBody>
-                    FlyByWire has created several tutorials and documents to make learning the A320 quickly and accurately possible for anyone!
+                    Embark on heroic rescue missions with helicopters, engaging in dynamic scenarios and immersive storytelling to make a difference in the world.
                 </FeatureBody>
             </Feature>
 
-            <Feature key="Open Source">
-                <FeatureTitle>
-                    Open Source
-                </FeatureTitle>
-                <FeatureBody>
-                    The FlyByWire A32NX is completely open sourced, anyone can contribute to the project, and it can be freely reused under our licence.
-                </FeatureBody>
-            </Feature>
         </div>
         <div id="download" />
     </section>

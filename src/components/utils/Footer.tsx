@@ -21,12 +21,8 @@ export const Footer = () => (
         <Container className="flex flex-col space-y-2">
 
             <div className="flex gap-x-4 justify-center">
-                <FooterIconItem icon={faGithub} href="https://github.com/flybywiresim" />
-                <FooterIconItem icon={faTwitter} href="https://twitter.com/FlyByWireSim" />
-                <FooterIconItem icon={faFacebook} href="https://www.facebook.com/FlyByWireSimulations" />
-                <FooterIconItem icon={faDiscord} href="https://discord.gg/flybywire" />
-                <FooterIconItem icon={faTwitch} href="https://www.twitch.tv/flybywiresimulations" />
-                <FooterIconItem icon={faYoutube} href="https://www.youtube.com/c/FlyByWireSimulations" />
+                <FooterIconItem icon={faGithub} href="https://github.com/Aiena-e-V" />
+                <FooterIconItem icon={faDiscord} href="https://discord.gg/Y9qdHcWXvZ" />
             </div>
 
             <div className="flex gap-x-4 justify-center text-center">
@@ -36,16 +32,21 @@ export const Footer = () => (
                     target="_blank"
                     rel="noreferrer"
                 >
-                    Source Code
+                    GitHub
                 </a>
                 <span className="hover:underline cursor-pointer">
-                    <Link href="/tos">
+                    <Link href="https://forum.aiena.de/wsc/index.php?nutzungsbedingungen-de/">
                         Terms of Service
                     </Link>
                 </span>
                 <span className="hover:underline cursor-pointer">
-                    <Link href="/privacy">
+                    <Link href="https://forum.aiena.de/wsc/index.php?datenschutzerklaerung_2/">
                         Privacy Policy
+                    </Link>
+                </span>
+                <span className="hover:underline cursor-pointer">
+                    <Link href="https://forum.aiena.de/wsc/index.php?legal-notice/">
+                        Legal Notice
                     </Link>
                 </span>
             </div>
@@ -61,7 +62,10 @@ export const Footer = () => (
                     <Image src="/svg/vercel.svg" alt="Vercel" width={60} height={20} />
                 </span>
             </a>
-            <em className="text-center text-teal-100">&copy; FlyByWire Simulations and its contributors 2020-2021</em>
+            <em className="text-center text-teal-100">&copy; Aiena e.V</em>
+            <a href="https://github.com/flybywiresim/website" target="_blank" rel="noopener noreferrer" className="text-center text-teal-100 underline hover:text-teal-200">
+              This website is a fork of the FlyByWireSim Marketing Website
+            </a>
         </Container>
     </footer>
 );

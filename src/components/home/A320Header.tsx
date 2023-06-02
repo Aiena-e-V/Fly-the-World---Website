@@ -12,38 +12,34 @@ export const A320Header = () => {
 
     return (
         <header>
-            <video
-                className="object-cover fixed -z-10 w-screen h-screen opacity-10"
-                src="https://cdn.flybywiresim.com/assets/website/video/A32NX.mp4"
-                playsInline
-                autoPlay
-                muted
-                loop
-            />
-            <Container className="relative max-w-6xl min-h-screen">
-                <div className="absolute bottom-0 left-0 h-2/3 px-page">
+                <img
+                    className="object-cover fixed -z-10 w-screen h-screen opacity-10"
+                    src="img/header.png"
+                    alt="Header Image"
+                />
+
+
+            <Container className="relative max-w-5xl min-h-screen ">
+                <div className="absolute bottom-0 left-0 h-2/3 px-page ">
                     <h1 className="text-8xl font-bold">
-                        <span className="text-teal">A32</span>
-                        <span className="text-blue">N</span>
-                        X
+                        <span className="text">Fly the World</span>
                     </h1>
                     <p className="max-w-xl">
-                        A community built and maintained project aiming to provide high quality and detailed aircraft
-                        for Microsoft Flight Simulator.
+                        A free web system designed to enhance every flight simulator
                     </p>
                     <div className="flex gap-4 my-5 max-w-md">
                         <Button
                             onClick={handleClick}
-                            className="w-40 hover:text-blue-light bg-blue-light hover:bg-white border-2 border-blue-light"
+                            className="w-40 hover:text-blue bg-blue-light hover:bg-white border-2 border-blue-light"
                         >
-                            Installer
+                            Get Started
                         </Button>
 
-                        <Link href="/a32nx">
+                        <Link href="https://dragon.ftwsim.de/FlyTheWorld">
                             <Button
-                                className="w-44 text-blue-light hover:text-blue-light hover:bg-white border-2 border-blue-light"
+                                className="w-44 text-blue hover:text-blue-light hover:bg-white border-2 border-blue-light"
                             >
-                                Learn More
+                                Simulation
                             </Button>
                         </Link>
                     </div>
