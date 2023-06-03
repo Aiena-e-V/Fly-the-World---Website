@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Link from 'next/link';
 import Image from 'next/image';
 import { IconProp } from '@fortawesome/fontawesome-svg-core';
-import { faDiscord, faFacebook, faGithub, faTwitch, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { faDiscord, faGithub } from '@fortawesome/free-brands-svg-icons';
 import Container from './Container';
 
 type IconItemProp = {
@@ -63,8 +63,8 @@ export const Footer = () => (
                 </span>
             </a>
             <em className="text-center text-teal-100">&copy; Aiena e.V</em>
-            <a href="https://github.com/flybywiresim/website" target="_blank" rel="noopener noreferrer" className="text-center text-teal-100 underline hover:text-teal-200">
-              This website is a fork of the FlyByWireSim Marketing Website
+            <a href="https://github.com/flybywiresim/website" target="_blank" rel="noopener noreferrer" className="text-center text-teal-100 hover:text-teal-200 underline">
+                This website is a fork of the FlyByWireSim Marketing Website
             </a>
         </Container>
     </footer>

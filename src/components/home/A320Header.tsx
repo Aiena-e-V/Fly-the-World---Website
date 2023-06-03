@@ -12,12 +12,10 @@ export const A320Header = () => {
 
     return (
         <header>
-                <img
-                    className="object-cover fixed -z-10 w-screen h-screen opacity-10"
-                    src="img/header.png"
-                    alt="Header Image"
-                />
-
+            <img
+                className="object-cover fixed -z-10 w-screen h-screen opacity-10"
+                src="img/header.png"
+            />
 
             <Container className="relative max-w-5xl min-h-screen ">
                 <div className="absolute bottom-0 left-0 h-2/3 px-page ">
