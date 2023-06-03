@@ -6,17 +6,17 @@ export const ExtendedFeatures = () => (
     <section className="py-4 pb-20 mx-auto max-w-screen-2xl rounded-lg sm:px-6 lg:px-8 px-page">
         <div className="grid
                         grid-cols-1
-                        md:grid-cols-2
-                        xl:grid-cols-3
-                        2xl:grid-cols-4
-                        max-w-max mx-auto gap-x-16 gap-y-20"
+                        gap-x-16
+                        gap-y-20
+                        mx-auto
+                        max-w-max md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4"
         >
             <Feature key="Aircraft ownership">
                 <FeatureTitle>
                     Aircraft ownership
                 </FeatureTitle>
                 <FeatureBody>
-                    Begin your journey with small propeller aircraft and gradually progress to owning a majestic 747 and beyond. With a wide selection of planes available for purchase, you'll have the opportunity to fly almost any aircraft your heart desires.
+                    Begin your journey with small propeller aircraft and gradually progress to owning a majestic 747 and beyond.
                 </FeatureBody>
             </Feature>
 
@@ -43,7 +43,7 @@ export const ExtendedFeatures = () => (
                     Airlines
                 </FeatureTitle>
                 <FeatureBody>
-                Choose from a wide selection of player-operated airlines that cater to your preferences, including location, language, and route types. With over 300 airlines to choose from, there's one that's perfect for you!
+                    Choose from a wide selection of player-operated airlines that cater to your preferences, including location, language, and route types.
                 </FeatureBody>
             </Feature>
 
@@ -61,7 +61,7 @@ export const ExtendedFeatures = () => (
                     Aircraft Leasing & Rental
                 </FeatureTitle>
                 <FeatureBody>
-                      Explore various options for leasing or renting an aircraft if you don't have sufficient funds to purchase one at the moment.
+                    Explore various options for leasing or renting an aircraft if you don't have sufficient funds to purchase one at the moment.
                 </FeatureBody>
             </Feature>
 

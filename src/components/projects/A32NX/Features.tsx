@@ -5,7 +5,7 @@ export const Features = () => (
                 Features
             </p>
             <p className="pt-5 text-xl text-center">
-              Fly the World is one of the most complex economy addons out there! Let's explore some of the exciting features it offers.
+                Fly the World is one of the most complex economy addons out there! Let's explore some of the exciting features it offers.
             </p>
         </div>
     </>

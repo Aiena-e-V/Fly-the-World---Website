@@ -1,10 +1,9 @@
 import { Button } from '../../utils/Button';
 
-export const Download = ({ expOnHold }: { expOnHold?: boolean }) => {
+export const Download = () => {
     const urls = {
         stable: 'https://forum.aiena.de/wsc/index.php?disclaimer/',
         dev: 'https://forum.aiena.de/wsc/index.php?form-user-response/1-fly-the-world-simulations-player-account/',
-        exp: 'empty',
     };
 
     const getDownloadLink = (link: string) => `${link}`;
@@ -37,11 +36,11 @@ export const Download = ({ expOnHold }: { expOnHold?: boolean }) => {
                             <span className="text-4xl text-blue-100">YAACARS tracking</span>
 
                             <p className="mt-4 mb-6 max-w-prose">
-                               Connect your simulators to our platform seamlessly using our ACARS client!
+                                Connect your simulators to our platform seamlessly using our ACARS client!
                             </p>
 
                             <a href="http://www.ftw-sim.de/yaacars/download/download.php?file=YAACARS%20V2.3%20%28Build%20FTW%23195%29.zip">
-                                <Button className="float-center w-50 font-bold bg-green-500 hover:bg-green-700">Yaacars - Windows</Button>
+                                <Button className="font-bold bg-green-500 hover:bg-green-700 float-center w-50">Yaacars - Windows</Button>
                             </a>
                         </div>
 
@@ -65,9 +64,7 @@ export const Download = ({ expOnHold }: { expOnHold?: boolean }) => {
                                         <Button className="float-right w-40 font-bold bg-blue-light-contrast hover:bg-blue-medium">Request</Button>
                                     </a>
                                 </div>
-                                <div>
-
-                                </div>
+                                <div />
                             </div>
                         </div>
                     </div>
